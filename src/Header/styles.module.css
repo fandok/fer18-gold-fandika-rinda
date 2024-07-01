@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.block {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.navigation {
+  display: flex;
+  gap: 32px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.offcanvasContainer {
+  width: 180px !important;
+}
+
+.offcanvasHeader {
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.offcanvasItem {
+  font-family: Arial;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+
+  .menu {
+    display: initial;
+  }
+}

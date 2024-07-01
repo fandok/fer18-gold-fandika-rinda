@@ -1,0 +1,53 @@
+.hero {
+  background-color: #f1f3ff;
+  padding: 25px 136px 207px;
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  bottom: -54px;
+  left: 196px;
+  right: 196px;
+}
+
+.content {
+  margin: 102px 196px 152px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  font-size: 14px;
+}
+
+.content-info {
+  padding: 24px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  border-radius: 8px;
+  width: 30%;
+  height: max-content;
+}
+
+.info-image {
+  display: block;
+  margin: 0px auto 52px;
+}
+
+.info-name {
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.info-counts {
+  font-size: 10px;
+  line-height: 14px;
+  color: #8a8a8a;
+}
+
+.info-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 60px;
+}

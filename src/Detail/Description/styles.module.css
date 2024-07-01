@@ -1,0 +1,19 @@
+.content-description {
+  padding: 24px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 70%;
+}
+
+.description-title {
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.description-list {
+  line-height: 24.5px;
+  color: #8a8a8a;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}

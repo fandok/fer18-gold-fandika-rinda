@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 152px 173px 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 268px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.block {
+  width: 100px;
+  height: 34px;
+  background: #0d28a6;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
